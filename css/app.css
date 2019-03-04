@@ -1,0 +1,63 @@
+/*
+Dark Blue: #153259    21, 50, 89
+Medium Blue: #264F73   28, 79, 115
+Gray: #f2f2f2   242, 242, 242
+Tan: #d9a55f   217, 165, 95
+Goldenrod: #f2a43c    242, 164, 60
+*/
+
+#timeline-wrapper {
+    background-color: rgb(21, 50, 89);
+    padding-top: 10px;
+}
+
+#timeline-wrapper h1 {
+    color: rgb(255, 255, 255);
+}
+
+#my-info {
+    background-color: rgb(217, 165, 95);
+}
+
+#achievements,
+#education {
+    color: #fefefe;
+}
+
+hr {
+    border-top: 3px solid #fefefe;
+}
+
+.achievements-date {
+    font-size: .8em;
+}
+
+.callout {
+    margin-bottom: 0px !important;
+    border: none !important;
+}
+
+.callout.primary {
+    background-color: rgb(242, 242, 242);
+    color: rgb(0, 0, 0);
+}
+
+.social-icon {
+    height: 16px;
+    width: 16px;
+    color: rgb(28, 79, 115);
+}
+
+ul.menu li {
+    width: 30px;
+}
+
+#footer {
+    background-color: rgb(21, 50, 89);
+    color: #fefefe;
+    padding: 10px 0px;
+}
+
+#footer a {
+    color: #fefefe;
+}
