@@ -13,15 +13,19 @@
 
 <body>
 	<div class="off-canvas position-left reveal-for-medium" id="my-info" data-off-canvas>
-		<div class="grid-y grid-padding-x" style="height: 100%;">
+		<div class="grid-y grid-padding-x" id="wrapper_info">
 			<br>
-			<div class="cell shrink text-center" style="margin-bottom: 5px;">
+			<div class="cell shrink text-center" id="wrapper_headshot">
 				<img src="img/headshot.png">
 			</div>
 			<div class="cell auto">
 				<h4>Patrick Connelly</h4>
 				<p>Salesforce and Open Source Developer</p>
-				<div class="cell auto" style="margin-top: 50px;">
+				<div class="cell auto" id="wrapper_certs">
+					<img class="cert_icon" src="img/cert_platform.png" alt="Salesforce Certified Platform App Builder" />
+					<img class="cert_icon" src="img/cert_javascript.png" alt="Salesforce Certified JavaScript Developer I" />
+				</div>
+				<div class="cell auto" id="wrapper_contact">
 					<h4>Contact Me</h4>
 					<p>While not currently looking for new work, I'd love to meet other Opensource developers and love
 						to help out the community. Feel free to connect with me on the social media platform of your
@@ -183,10 +187,7 @@
 					<h1 class="text-center">Education</h1>
 					<dl class="text-center">
 						<dt>North Carolina State University</dt>
-						<dd>
-							<p>Bachelors in Computer Science<p>
-									<p></p>
-						</dd>
+						<dd>Bachelors in Computer Science</dd>
 						<dt>Wake Technical Community College</dt>
 						<dd>College Transfer</dd>
 					</dl>

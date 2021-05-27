@@ -1,0 +1,23 @@
+{
+  "name": "connellydev.github.io",
+  "version": "1.0.0",
+  "description": "Connelly.dev site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint-style": "stylelint css/app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connellydev/connellydev.github.io.git"
+  },
+  "author": "Patrick Connelly (patrick@connelly.dev)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/connellydev/connellydev.github.io/issues"
+  },
+  "homepage": "https://github.com/connellydev/connellydev.github.io#readme",
+  "devDependencies": {
+    "stylelint": "^13.13.1"
+  }
+}

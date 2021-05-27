@@ -8,7 +8,7 @@ Goldenrod: #f2a43c    242, 164, 60
 
 #timeline-wrapper {
     background-color: rgb(21, 50, 89);
-    padding-top: 10px;
+    padding-top: 1em;
 }
 
 #timeline-wrapper h1 {
@@ -25,7 +25,7 @@ Goldenrod: #f2a43c    242, 164, 60
 }
 
 hr {
-    border-top: 3px solid #fefefe;
+    border-top: .25em solid #fefefe;
 }
 
 .achievements-date {
@@ -33,7 +33,7 @@ hr {
 }
 
 .callout {
-    margin-bottom: 0px !important;
+    margin-bottom: 0 !important;
     border: none !important;
 }
 
@@ -43,21 +43,52 @@ hr {
 }
 
 .social-icon {
+    /* stylelint-disable-next-line unit-allowed-list */
     height: 16px;
+    /* stylelint-disable-next-line unit-allowed-list */
     width: 16px;
     color: rgb(28, 79, 115);
 }
 
 ul.menu li {
-    width: 30px;
+    width: 2em;
 }
 
 #footer {
     background-color: rgb(21, 50, 89);
     color: #fefefe;
-    padding: 10px 0px;
+    padding: 1em 0;
 }
 
 #footer a {
     color: #fefefe;
+}
+
+#wrapper_headshot {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+#wrapper_info {
+    height: 100%;
+}
+
+#wrapper_certs {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+#wrapper_contact {
+    margin-top: 1.5em;
+}
+
+.cert_icon {
+    /* stylelint-disable-next-line unit-allowed-list */
+    height: 75px;
+    /* stylelint-disable-next-line unit-allowed-list */
+    width: 75px;
+}
+
+#education dl dd {
+    margin-bottom: .5em;
 }
