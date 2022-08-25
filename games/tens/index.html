@@ -124,321 +124,321 @@
         <h2>Playing the game</h2>
         <p>At the start of a player's turn they have two choices.  They can either choose a card from the draw pile or they can take a discard from any player but themselves.  Once the card is taken / drawn, it <b>MUST</b> be played face up in the player's field.  It <b>CANNOT</b> be discarded.  This card can replace either a face up or face down card.</p>
         <p>After the player replaces a card with their new card, the previous card becomes their discard and is stored at the top of the hand seperate from the other player's discards.</p>
-                <h3>Objectives</h3>
-            <p>The objective of the game is to match cards vertically with the same value card.  These matches can be added to by matching the adjacent column with the same number.  The scoring for this goes as follows</p>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-3 diams">
-                            <span class="rank">3</span>
-                            <span class="suit">&diams;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a spades">
-                            <span class="rank">A</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <p>Because these two cards do not match, they are worth their card value (defined below) of 4.</p>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a hearts">
-                            <span class="rank">A</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a spades">
-                            <span class="rank">A</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <p>Because these two cards match, they cancel out and are worth 0 points.</p>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a hearts">
-                            <span class="rank">A</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-3 diams">
-                            <span class="rank">3</span>
-                            <span class="suit">&diams;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a spades">
-                            <span class="rank">A</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-a hearts">
-                            <span class="rank">A</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <p>Because two of these four cards match vertically they cancel out and the remaining cards are worth 4 points.</p>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a hearts">
-                            <span class="rank">A</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-a diams">
-                            <span class="rank">A</span>
-                            <span class="suit">&diams;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a spades">
-                            <span class="rank">A</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-a hearts">
-                            <span class="rank">A</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <p>Because all four cards match vertically they cancel out and are worth -20 points.</p>
-
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a hearts">
-                            <span class="rank">A</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-a diams">
-                            <span class="rank">A</span>
-                            <span class="suit">&diams;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-a spades">
-                            <span class="rank">A</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a spades">
-                            <span class="rank">A</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-a hearts">
-                            <span class="rank">A</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-a clubs">
-                            <span class="rank">A</span>
-                            <span class="suit">&clubs;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <p>Because all six cards match vertically they cancel out and are worth -30 points.</p>
-
-            <h2>Finishing a hand</h2>
-            <p>A hand finishes when a player has all 10 cards face up.  When this happens each remaining player has one additional turn to place a card.  Once their last turn is complete, any remaining face down cards are flipped revealing the value below.</p>
-
-            <h2>Hand scoring</h2>
-            <p>After the last turn all players calculate their score and it is recorded.</p>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a diams">
-                            <span class="rank">A</span>
-                            <span class="suit">&diams;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-7 clubs">
-                            <span class="rank">7</span>
-                            <span class="suit">&clubs;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-7 spades">
-                            <span class="rank">7</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-7 hearts">
-                            <span class="rank">7</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-k diams">
-                            <span class="rank">K</span>
-                            <span class="suit">&diams;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-a spades">
-                            <span class="rank">A</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-7 spades">
-                            <span class="rank">7</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-7 diams">
-                            <span class="rank">7</span>
-                            <span class="suit">&diams;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-9 spades">
-                            <span class="rank">9</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-j hearts">
-                            <span class="rank">J</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <p>The above hand would be scored as +6 points.  0 points for the Aces.  -20 points for the 4 sevens.  +16 points for the seven and the nine. +10 points for the King and Jack</p>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-3 hearts">
-                            <span class="rank">3</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-6 clubs">
-                            <span class="rank">6</span>
-                            <span class="suit">&clubs;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-6 spades">
-                            <span class="rank">6</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-2 hearts">
-                            <span class="rank">2</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-k clubs">
-                            <span class="rank">K</span>
-                            <span class="suit">&clubs;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="playingCards fourColours rotateHand">
-                <ul class="table">
-                    <li>
-                        <div class="card rank-3 diams">
-                            <span class="rank">3</span>
-                            <span class="suit">&diams;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-6 spades">
-                            <span class="rank">6</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-6 hearts">
-                            <span class="rank">6</span>
-                            <span class="suit">&hearts;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-2 spades">
-                            <span class="rank">2</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="card rank-a spades">
-                            <span class="rank">A</span>
-                            <span class="suit">&spades;</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <p>The above hand would be scored as -19 points.  0 points for the threes.  -20 points for the 4 sixes.  0 points for the twos. +1 points for the King and Ace</p>
-            <h1>Completing the Game</h1>
-            <p>The game plays out over serveral hands until one of two criterias is met.  The game is over when someone has a score in excess of 100 points or below -100 points.  When this happens, the player with the lowest score wins.</p>
-            <h1>Strategies</h1>
-            <p>One of the biggest strategies to this game is to get as much information as you can.  The cards that are face down should be traded for known cards when possible and trying to make vertical pairs.  Once vertical pairs are made try to make an adjacent vertical pair to get the -20 points.  It's ok to take more risks with higher point value cards early in a hand.</p>
-            <p>Once a player at the table has one or two un-flipped cards remaining you should go into damage control mode.  This means that you should consider trying to reduce the total value of face up cards in your hand by swapping for lower value cards.</p>
-            <p>Sometimes it is advantagious to go out without a perfect hand if you can end up with a low score and catch someone with several face down cards remaining.</p>
-            <p>The King is always a card you should grab if available.  It is worth 0 points and can be paired with another low value card as a holding spot for a pair or four card set</p>
-            <p>If the player going before you discards a card and you even think you might need it, grab it.  You will never get another chance to get that card.  Other players at the table could have their discard taken and thus revealing a card down the stack.  But since your turn will always come after the player to your right their current discard is the only card you'll ever get from them</p>
-
-            <h1>Card values</h1>
-            <ul>
-                <li>Ace &mdash; 1</li>
-                <li>2-9 &mdash; face value</li>
-                <li>Jack &amp; Queen &mdash 10</li>
-                <li>King &mdash; 0</li>
+        <h3>Objectives</h3>
+        <p>The objective of the game is to match cards vertically with the same value card.  These matches can be added to by matching the adjacent column with the same number.  The scoring for this goes as follows</p>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-3 diams">
+                        <span class="rank">3</span>
+                        <span class="suit">&diams;</span>
+                    </div>
+                </li>
             </ul>
-        </body>
-    </html>
+        </div>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a spades">
+                        <span class="rank">A</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p>Because these two cards do not match, they are worth their card value (defined below) of 4.</p>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a hearts">
+                        <span class="rank">A</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a spades">
+                        <span class="rank">A</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p>Because these two cards match, they cancel out and are worth 0 points.</p>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a hearts">
+                        <span class="rank">A</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-3 diams">
+                        <span class="rank">3</span>
+                        <span class="suit">&diams;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a spades">
+                        <span class="rank">A</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-a hearts">
+                        <span class="rank">A</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p>Because two of these four cards match vertically they cancel out and the remaining cards are worth 4 points.</p>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a hearts">
+                        <span class="rank">A</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-a diams">
+                        <span class="rank">A</span>
+                        <span class="suit">&diams;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a spades">
+                        <span class="rank">A</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-a hearts">
+                        <span class="rank">A</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p>Because all four cards match vertically they cancel out and are worth -20 points.</p>
+
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a hearts">
+                        <span class="rank">A</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-a diams">
+                        <span class="rank">A</span>
+                        <span class="suit">&diams;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-a spades">
+                        <span class="rank">A</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a spades">
+                        <span class="rank">A</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-a hearts">
+                        <span class="rank">A</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-a clubs">
+                        <span class="rank">A</span>
+                        <span class="suit">&clubs;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p>Because all six cards match vertically they cancel out and are worth -30 points.</p>
+
+        <h2>Finishing a hand</h2>
+        <p>A hand finishes when a player has all 10 cards face up.  When this happens each remaining player has one additional turn to place a card.  Once their last turn is complete, any remaining face down cards are flipped revealing the value below.</p>
+
+        <h2>Hand scoring</h2>
+        <p>After the last turn all players calculate their score and it is recorded.</p>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a diams">
+                        <span class="rank">A</span>
+                        <span class="suit">&diams;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-7 clubs">
+                        <span class="rank">7</span>
+                        <span class="suit">&clubs;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-7 spades">
+                        <span class="rank">7</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-7 hearts">
+                        <span class="rank">7</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-k diams">
+                        <span class="rank">K</span>
+                        <span class="suit">&diams;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-a spades">
+                        <span class="rank">A</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-7 spades">
+                        <span class="rank">7</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-7 diams">
+                        <span class="rank">7</span>
+                        <span class="suit">&diams;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-9 spades">
+                        <span class="rank">9</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-j hearts">
+                        <span class="rank">J</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p>The above hand would be scored as +6 points.  0 points for the Aces.  -20 points for the 4 sevens.  +16 points for the seven and the nine. +10 points for the King and Jack</p>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-3 hearts">
+                        <span class="rank">3</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-6 clubs">
+                        <span class="rank">6</span>
+                        <span class="suit">&clubs;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-6 spades">
+                        <span class="rank">6</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-2 hearts">
+                        <span class="rank">2</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-k clubs">
+                        <span class="rank">K</span>
+                        <span class="suit">&clubs;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="playingCards fourColours rotateHand">
+            <ul class="table">
+                <li>
+                    <div class="card rank-3 diams">
+                        <span class="rank">3</span>
+                        <span class="suit">&diams;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-6 spades">
+                        <span class="rank">6</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-6 hearts">
+                        <span class="rank">6</span>
+                        <span class="suit">&hearts;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-2 spades">
+                        <span class="rank">2</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="card rank-a spades">
+                        <span class="rank">A</span>
+                        <span class="suit">&spades;</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p>The above hand would be scored as -19 points.  0 points for the threes.  -20 points for the 4 sixes.  0 points for the twos. +1 points for the King and Ace</p>
+        <h1>Completing the Game</h1>
+        <p>The game plays out over serveral hands until one of two criterias is met.  The game is over when someone has a score in excess of 100 points or below -100 points.  When this happens, the player with the lowest score wins.</p>
+        <h1>Strategies</h1>
+        <p>One of the biggest strategies to this game is to get as much information as you can.  The cards that are face down should be traded for known cards when possible and trying to make vertical pairs.  Once vertical pairs are made try to make an adjacent vertical pair to get the -20 points.  It's ok to take more risks with higher point value cards early in a hand.</p>
+        <p>Once a player at the table has one or two un-flipped cards remaining you should go into damage control mode.  This means that you should consider trying to reduce the total value of face up cards in your hand by swapping for lower value cards.</p>
+        <p>Sometimes it is advantagious to go out without a perfect hand if you can end up with a low score and catch someone with several face down cards remaining.</p>
+        <p>The King is always a card you should grab if available.  It is worth 0 points and can be paired with another low value card as a holding spot for a pair or four card set</p>
+        <p>If the player going before you discards a card and you even think you might need it, grab it.  You will never get another chance to get that card.  Other players at the table could have their discard taken and thus revealing a card down the stack.  But since your turn will always come after the player to your right their current discard is the only card you'll ever get from them</p>
+
+        <h1>Card values</h1>
+        <ul>
+            <li>Ace &mdash; 1</li>
+            <li>2-9 &mdash; face value</li>
+            <li>Jack &amp; Queen &mdash 10</li>
+            <li>King &mdash; 0</li>
+        </ul>
+    </body>
+</html>
