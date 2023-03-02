@@ -5,10 +5,12 @@
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Developer</title>
-		<link rel="stylesheet" href="../css/foundation.css">
-		<link rel="stylesheet" href="../css/dividers.css">
-		<link rel="stylesheet" href="../css/timeline.css">
-		<link rel="stylesheet" href="../css/app.css">
+		<link rel="stylesheet" href="/css/foundation.min.css">
+		<link rel="stylesheet" href="/css/dividers.css">
+		<link rel="stylesheet" href="/css/timeline.css">
+		<link rel="stylesheet" href="/css/app.css">
+
+		<meta name="description" content="Patrick Connelly Presentations">
 	</head>
 
 	<body>
@@ -16,23 +18,23 @@
 			<div class="grid-y grid-padding-x" id="wrapper_info">
 				<br>
 				<div class="cell shrink text-center" id="wrapper_headshot">
-					<img src="../img/headshot.png">
+					<img src="../img/headshot.png" alt="Photo of Patrick Connelly" height="200" width="200">
 				</div>
 				<div class="cell auto">
-					<h4>Patrick Connelly</h4>
+					<h1 class="h4"><a style="color: #000;" href="/">Patrick Connelly</a></h1>
 					<p>Salesforce and Open Source Developer</p>
 					<div class="cell auto" id="wrapper_certs">
-						<img class="cert_icon" src="../img/cert_platform.png" alt="Salesforce Certified Platform App Builder"/>
-						<img class="cert_icon" src="../img/cert_javascript.png" alt="Salesforce Certified JavaScript Developer I"/>
+						<img class="cert_icon" src="../img/cert_platform.png" alt="Salesforce Certified Platform App Builder" height="75" width="75"/>
+						<img class="cert_icon" src="../img/cert_javascript.png" alt="Salesforce Certified JavaScript Developer I" height="75" width="75"/>
 					</div>
 					<div class="cell auto" id="wrapper_contact">
-						<h4>Contact Me</h4>
+						<h1 class="h4">Contact Me</h1>
 						<p>While not currently looking for new work, I'd love to meet other Opensource developers and love
 						to help out the community. Feel free to connect with me on the social media platform of your
 						choice</p>
 						<div class="grid-x">
 							<div class="cell auto">
-								<a href="https://twitter.com/aelst">
+								<a href="https://twitter.com/aelst" aria-label="Twitter">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fab" data-icon="twitter" class="social-icon" role="img"
 									viewBox="0 0 512 512">
@@ -42,7 +44,7 @@
 								</a>
 							</div>
 							<div class="cell auto">
-								<a href="https://github.com/pcon">
+								<a href="https://github.com/pcon" aria-label="Github">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fab" data-icon="github" class="social-icon" role="img"
 									viewBox="0 0 496 512">
@@ -52,7 +54,7 @@
 								</a>
 							</div>
 							<div class="cell auto">
-								<a href="https://www.linkedin.com/pub/patrick-connelly/28/6b3/b56/">
+								<a href="https://www.linkedin.com/pub/patrick-connelly/28/6b3/b56/" aria-label="Linkedin">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fab" data-icon="linkedin-in" class="social-icon" role="img"
 									viewBox="0 0 448 512">
@@ -62,7 +64,7 @@
 								</a>
 							</div>
 							<div class="cell auto">
-								<a href="http://blog.deadlypenguin.com/blog/">
+								<a href="http://blog.deadlypenguin.com/blog/" aria-label="Blog">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fas" data-icon="blog" class="social-icon" role="img"
 									viewBox="0 0 512 512">
@@ -72,7 +74,7 @@
 								</a>
 							</div>
 							<div class="cell auto">
-								<a href="mailto:patrick@connelly.dev">
+								<a href="mailto:patrick@connelly.dev" aria-label="Mail">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fas" data-icon="envelope" class="social-icon" role="img"
 									viewBox="0 0 512 512">
@@ -89,25 +91,31 @@
 		<div class="off-canvas-content" data-off-canvas-content>
 			<div class="title-bar hide-for-medium">
 				<div class="title-bar-left">
-					<button class="menu-icon" type="button" data-toggle="my-info"></button>
+					<button class="menu-icon" type="button" data-toggle="my-info" aria-label="Menu"></button>
 					<span class="title-bar-title"></span>
 				</div>
 			</div>
+			<article class="dark-background page-header">
+				<div>
+					<h1 class="text-center">Presentations</h1>
+					<p class="lead text-center">Presentations written and delivered by Patrick</p>
+				</div>
+			</article>
 			<div class="callout primary">
 				<article class="grid-container">
 					<div id="want_to_be_a_developer">
-						<h1 class="text-center">So you want to be a developer?</h1>
-						<h2 class="text-center">Talk information</h2>
+						<h2 class="text-center">So you want to be a developer?</h2>
+						<h3 class="text-center">Talk information</h3>
 						<ul>
 							<li>Watch session
-								<ul>
+								<ul class="link-list">
 									<li>
 										<a href="https://youtu.be/-rYjt6SMwjw">Hawaii User Group &mdash; March 2022</a>
 									</li>
 								</ul>
 							</li>
 							<li>Download Slides
-                            	<ul>
+                            	<ul class="link-list">
 									<li>
 										<a href="../assets/developer/connelly_walters_developer_dic22.pdf">Dreamin' In Color 22</a>
 									</li>
@@ -120,7 +128,7 @@
 								</ul>
 							</li>
 							<li>Resources
-                            	<ul>
+                            	<ul class="link-list">
 									<li>
 										<a href="https://trailhead.salesforce.com/trailblazerconnect/mentorship/">Trailblazer Mentorship</a>
 									</li>
@@ -151,21 +159,21 @@
 						<h2 class="text-center">Talk information</h2>
 						<ul>
 							<li>Watch session
-								<ul>
+								<ul class="link-list">
 									<li>
 										<a href="https://www.youtube.com/watch?v=AhnmTcGiB7k">Raleigh-Durham Slack Community &mdash; February 2023</a>
 									</li>
 								</ul>
 							</li>
 							<li>Download Slides
-                            	<ul>
+                            	<ul class="link-list">
 									<li>
 										<a href="../assets/developer/connelly_jenkins_slack_scg.pdf">Raleigh-Durham Slack Community</a>
 									</li>
 								</ul>
 							</li>
 							<li>Resources
-                            	<ul>
+                            	<ul class="link-list">
 									<li>
 										<a href="https://levelup.gitconnected.com/send-slack-notifications-with-jenkins-f8e8b2d2e748">Set up guide</a>
 									</li>
@@ -184,14 +192,14 @@
 						<h2 class="text-center">Talk information</h2>
 						<ul>
 							<li>Watch session
-								<ul>
+								<ul class="link-list">
 									<li>
 										<a href="https://youtu.be/bOPu7p8myRY">Raleigh-Durham Developer User Group &mdash; July 2022</a>
 									</li>
 								</ul>
 							</li>
 							<li>Download Slides
-                            	<ul>
+                            	<ul class="link-list">
 									<li>
 										<a href="../assets/developer/connelly_code_review_tcg.pdf">Raleigh-Durham Developer User Group</a>
 									</li>
@@ -201,7 +209,7 @@
 								</ul>
 							</li>
 							<li>Resources
-                            	<ul>
+                            	<ul class="link-list">
 									<li>
 										<a href="https://pmd.github.io/latest/pmd_rules_apex.html">PMD</a>
 									</li>

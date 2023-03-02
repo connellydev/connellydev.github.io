@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="css/dividers.css">
 		<link rel="stylesheet" href="css/timeline.css">
 		<link rel="stylesheet" href="css/app.css">
+
+		<meta name="description" content="Patrick Connelly Resume">
 	</head>
 
 	<body>
@@ -16,14 +18,17 @@
 			<div class="grid-y grid-padding-x" id="wrapper_info">
 				<br>
 				<div class="cell shrink text-center" id="wrapper_headshot">
-					<img src="img/headshot.png">
+					<img src="img/headshot.png" alt="Photo of Patrick Connelly" height="200" width="200">
 				</div>
 				<div class="cell auto">
 					<h4>Patrick Connelly</h4>
 					<p>Salesforce and Open Source Developer</p>
+					<div class="cell auto" id="wrapper_presentations">
+						<a href="/presentations/" class="button expanded secondary">Presentations</a>
+					</div>
 					<div class="cell auto" id="wrapper_certs">
-						<img class="cert_icon" src="img/cert_platform.png" alt="Salesforce Certified Platform App Builder"/>
-						<img class="cert_icon" src="img/cert_javascript.png" alt="Salesforce Certified JavaScript Developer I"/>
+						<img class="cert_icon" src="img/cert_platform.png" alt="Salesforce Certified Platform App Builder" height="75" width="75"/>
+						<img class="cert_icon" src="img/cert_javascript.png" alt="Salesforce Certified JavaScript Developer I" height="75" width="75"/>
 					</div>
 					<div class="cell auto" id="wrapper_contact">
 						<h4>Contact Me</h4>
@@ -32,7 +37,7 @@
 						choice</p>
 						<div class="grid-x">
 							<div class="cell auto">
-								<a href="https://twitter.com/aelst">
+								<a href="https://twitter.com/aelst" aria-label="Twitter">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fab" data-icon="twitter" class="social-icon" role="img"
 									viewBox="0 0 512 512">
@@ -42,7 +47,7 @@
 								</a>
 							</div>
 							<div class="cell auto">
-								<a href="https://github.com/pcon">
+								<a href="https://github.com/pcon" aria-label="Github">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fab" data-icon="github" class="social-icon" role="img"
 									viewBox="0 0 496 512">
@@ -52,7 +57,7 @@
 								</a>
 							</div>
 							<div class="cell auto">
-								<a href="https://www.linkedin.com/pub/patrick-connelly/28/6b3/b56/">
+								<a href="https://www.linkedin.com/pub/patrick-connelly/28/6b3/b56/" aria-label="Linkedin">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fab" data-icon="linkedin-in" class="social-icon" role="img"
 									viewBox="0 0 448 512">
@@ -62,7 +67,7 @@
 								</a>
 							</div>
 							<div class="cell auto">
-								<a href="http://blog.deadlypenguin.com/blog/">
+								<a href="http://blog.deadlypenguin.com/blog/" aria-label="Blog">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fas" data-icon="blog" class="social-icon" role="img"
 									viewBox="0 0 512 512">
@@ -72,7 +77,7 @@
 								</a>
 							</div>
 							<div class="cell auto">
-								<a href="mailto:patrick@connelly.dev">
+								<a href="mailto:patrick@connelly.dev" aria-label="Email">
 									<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"
 									data-prefix="fas" data-icon="envelope" class="social-icon" role="img"
 									viewBox="0 0 512 512">
@@ -89,11 +94,11 @@
 		<div class="off-canvas-content" data-off-canvas-content>
 			<div class="title-bar hide-for-medium">
 				<div class="title-bar-left">
-					<button class="menu-icon" type="button" data-toggle="my-info"></button>
+					<button class="menu-icon" type="button" data-toggle="my-info" aria-label="Menu"></button>
 					<span class="title-bar-title"></span>
 				</div>
 			</div>
-			<div class="callout primary">
+			<div class="callout primary gray-background">
 				<article class="grid-container">
 					<div>
 						<h1 class="text-center">Patrick Connelly's Portfolio</h1>
@@ -104,7 +109,7 @@
 				</article>
 			</div>
 			<div class="grid-x">
-				<div class="cell large-auto" id="timeline-wrapper">
+				<div class="cell large-auto dark-background" id="timeline-wrapper">
 					<h1 class="text-center">Timeline</h1>
 					<div class="timeline">
 						<div class="timeline-item">
@@ -119,7 +124,7 @@
 							<div class="timeline-content left">
 								<p class="timeline-content-who">Red Hat</p>
 								<p class="timeline-content-date">2009 &mdash; Present</p>
-								<h5>Principal Software Engineer</h5>
+								<h2 class="h5">Principal Software Engineer</h2>
 								<p>Leads a team of Salesforce developers working on a Service Cloud implementation that
 								started in 2009. Primary responsibilities include architecting solutions for business
 								problems, implementing the solutions and developing tooling to help automate various
@@ -138,7 +143,7 @@
 							<div class="timeline-content right">
 								<p class="timeline-content-who">Red Hat</p>
 								<p class="timeline-content-date">2008 &mdash; 2009</p>
-								<h5>Training Manager</h5>
+								<h2 class="h5">Training Manager</h2>
 								<p>In charge of developing new training for Support Delivery and providing training and
 								certification exams for new hires. This included an intensive 6 week in-person training
 								course that facilitated new hires in passing the <abbr
@@ -157,7 +162,7 @@
 							<div class="timeline-content left">
 								<p class="timeline-content-who">Wake Tech</p>
 								<p class="timeline-content-date">2009</p>
-								<h5>Adjunct Professor</h5>
+								<h2 class="h5">Adjunct Professor</h2>
 								<p>Instructed a semester long Introduction to C class taught for Red Hat associates. This
 								was a weekly course that included 2 hour in person instruction, exams and weekly
 								programming assignments.</p>
@@ -175,7 +180,7 @@
 							<div class="timeline-content right">
 								<p class="timeline-content-who">Red Hat</p>
 								<p class="timeline-content-date">2006 &mdash; 2008</p>
-								<h5>Support Technician</h5>
+								<h2 class="h5">Support Technician</h2>
 								<p>Provided front-line and tier two support for Red Hat products to external customers.
 								Primarily focused on developer support, Red Hat Satellite, Red Hat Proxy, Red Hat
 								Network and installation issues.</p>
@@ -242,82 +247,81 @@
 							<span>Salesforce</span></h2>
 						<div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-2" id="development-salesforce">
 							<div class="cell">
-								<img class="thumbnail" src="img/solenopsis.png">
+								<img class="thumbnail" src="img/solenopsis.png" alt="Solenopsis logo" height="408" width="408">
 								<h3>Solenopsis</h3>
 								<p>Solenopsis is a tool born out of necessity. With no good command-line tool to deploy
 								Salesforce code with it was written to meet a need. Solenopsis is a combination of some
 								ANT scripts to do deployment and Python scripts to do easily manage flags and other neat
 								things like templates.</p>
 								<p>
-									<a class="button" href="http://solenopsis.org/Solenopsis/">Learn More</a>
+									<a class="button" href="http://solenopsis.org/Solenopsis/">View on Github</a>
 								</p>
 							</div>
 							<div class="cell">
-								<img class="thumbnail" src="img/eventmonitoring.png">
+								<img class="thumbnail" src="img/eventmonitoring.png" alt="Event monitoring logo" height="408" width="408">
 								<h3>Event Monitoring</h3>
 								<p>A command-line interface for interacting with the Event Monitoring capabilities of
 								Salesforce.</p>
 								<p>
-									<a class="button" href="https://github.com/pcon/sfdc-eventMonitoring">Learn More</a>
+									<a class="button" href="https://github.com/pcon/sfdc-eventMonitoring">View on Github</a>
 								</p>
 							</div>
 							<div class="cell">
-								<img class="thumbnail" src="img/sandboxversion.png">
+								<img class="thumbnail" src="img/sandboxversion.png" alt="Screenshot of sandbox version" height="408" width="408">
 								<h3>Sandbox Versions</h3>
 								<p>A Chrome and Firefox extension that shows your sandbox version next to your sandbox host.
 							</p>
 								<p>
-									<a class="button" href="https://github.com/pcon/sfdc-sandboxVersion">Learn More</a>
+									<a class="button" href="https://github.com/pcon/sfdc-sandboxVersion">View on Github</a>
 								</p>
 							</div>
 							<div class="cell">
-								<img class="thumbnail" src="img/entitlements.png">
+								<img class="thumbnail" src="img/entitlements.png" alt="Timeline from traning" height="408" width="408">
 								<h3>Entitlements Hands-On Training</h3>
 								<p>This hands-on training will help you learn how to use the built-in Salesforce entitlement
 								process to generate milestones on your support cases to help you meet your SLAs.</p>
 								<p>
-									<a class="button" href="http://pcon.github.io/handsontraining/entitlements/">Learn
-									More</a>
+									<a class="button" href="http://pcon.github.io/handsontraining/entitlements/">View Training</a>
 								</div>
 								<div class="cell">
-									<img class="thumbnail" src="img/salesforceapps.png">
+									<img class="thumbnail" src="img/salesforceapps.png" alt="Logo for Salesforce apps" height="408" width="408">
 									<h3>Salesforce Apps</h3>
 									<p>A collection of applications written to help with usage of Salesforce.</p>
 									<p>
-										<a class="button" href="https://github.com/pcon/SalesforceApps">Learn More</a>
+										<a class="button" href="https://github.com/pcon/SalesforceApps">View on Github</a>
 									</div>
 									<div class="cell">
-										<img class="thumbnail" src="img/liveagent.png">
+										<img class="thumbnail" src="img/liveagent.png" alt="Logo for live agent quickstart" height="408" width="408">
 										<h3>Live Agent Quickstart</h3>
 										<p>This app will allow you to quickly spin up a website on heroku with a link to your Live
 								Agent chat.</p>
 										<p>
-											<a class="button" href="https://github.com/pcon/liveagent-quickstart">Learn More</a>
+											<a class="button" href="https://github.com/pcon/liveagent-quickstart">View on Github</a>
 										</div>
 									</div>
 									<h2 class="type-sidelines">
 										<span>Other Technologies</span></h2>
 									<div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-3" id="development-other">
 										<div class="cell">
-											<img class="thumbnail" src="img/practicalsurvivor.png">
+											<img class="thumbnail" src="img/practicalsurvivor.png" alt="Cover image from Practical Survivor website" height="270" width="270">
 											<h3>Practical Survivor</h3>
 											<p>The Practical Survivor Theme is for Grav CMS.</p>
 											<p>
-												<a class="button" href="https://github.com/pcon/practicalsurvivor-grav">Learn More</a>
+												<a class="button" href="https://github.com/pcon/practicalsurvivor-grav">View on Github</a>
 											</div>
 											<div class="cell">
-												<img class="thumbnail" src="img/mozbot.png">
+												<img class="thumbnail" src="img/mozbot.png" alt="Mozbot logo" height="270" width="270">
 												<h3>MozBot Modules</h3>
 												<p>A collection of modules for the MozBot IRC bot.</p>
 												<p>
-													<a class="button" href="https://github.com/pcon/MozBot">Learn More</a>
+													<a class="button" href="https://github.com/pcon/MozBot">View on Github</a>
 												</div>
 												<div class="cell">
-													<img class="thumbnail" src="img/cloudinary.png">
+													<img class="thumbnail" src="img/cloudinary.png" alt="Cloudinary CLI logo" height="270" width="270">
 													<h3>Cloudinary CLI</h3>
 													<p>An easy way to upload files to cloudinary from the command-line.</p>
 													<p>
-														<a class="button" href="https://www.npmjs.com/package/cloudinary-cli">Learn More</a>
+														<a class="button" href="https://www.npmjs.com/package/cloudinary-cli">View on NPM</a>
 													</div>
 												</div>
 											</article>

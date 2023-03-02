@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint-style": "stylelint css/app.css"
+    "lint-style": "stylelint css/app.css",
+    "server": "http-server -p 8080"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/connellydev/connellydev.github.io#readme",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "stylelint": "^13.13.1"
   }
 }

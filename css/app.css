@@ -6,8 +6,24 @@ Tan: #d9a55f   217, 165, 95
 Goldenrod: #f2a43c    242, 164, 60
 */
 
-#timeline-wrapper {
+ul.link-list li {
+    margin: .8em 0;
+}
+
+.dark-background {
     background-color: rgb(21, 50, 89);
+    color: #fefefe;
+}
+
+.gray-background {
+    background-color: rgb(242, 242, 242) !important;
+}
+
+.page-header {
+    padding-bottom: 2em;
+}
+
+#timeline-wrapper {
     padding-top: 1em;
 }
 
@@ -38,7 +54,7 @@ hr {
 }
 
 .callout.primary {
-    background-color: rgb(242, 242, 242);
+    background-color: #fff;
     color: rgb(0, 0, 0);
 }
 
