@@ -89,7 +89,7 @@ ul.menu li {
     height: 100%;
 }
 
-#wrapper_certs {
+.wrapper_certs {
     margin-top: 1.5em;
     text-align: center;
 }
