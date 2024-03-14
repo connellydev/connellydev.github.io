@@ -20,6 +20,6 @@
   "homepage": "https://github.com/connellydev/connellydev.github.io#readme",
   "devDependencies": {
     "http-server": "^14.1.1",
-    "stylelint": "^13.13.1"
+    "stylelint": "^16.2.1"
   }
 }
