@@ -1,0 +1,40 @@
+---
+import "../styles/dividers.css";
+
+import Default from "../layouts/Default.astro";
+import Timeline from "../components/Timeline.astro";
+import Education from "../components/Education.astro";
+import Achievements from "../components/Achievements.astro";
+import Salesforce from "../components/development/Salesforce.astro";
+import Other from "../components/development/Other.astro";
+---
+
+<Default title="Test site">
+	<div class="callout primary gray-background">
+		<article class="grid-container">
+			<div>
+				<h1 class="text-center">Patrick Connelly's Portfolio</h1>
+				<p class="lead">
+					Patrick is a Salesforce developer by day and also a
+					Salesforce developer by night. He contributes his free time
+					to helping in the Salesforce community as well as giving
+					back by developing Opensource tools for Salesforce users.
+				</p>
+			</div>
+		</article>
+	</div>
+		<div class="grid-x">
+			<div class="cell large-auto dark-background" id="timeline-wrapper">
+				<Timeline />
+				<Education />
+				<Achievements />
+			</div>
+			<div class="cell large-auto" id="development">
+				<h1 class="text-center">Development</h1>
+				<article class="grid-container">
+					<Salesforce />
+					<Other />
+				</article>
+			</div>
+		</div>
+</Default>

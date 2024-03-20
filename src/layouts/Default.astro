@@ -1,0 +1,36 @@
+---
+import "foundation-sites/dist/css/foundation.min.css";
+import "../styles/app.css";
+
+import Sidebar from "../components/Sidebar.astro";
+import Footer from "../components/Footer.astro";
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{title}</title>
+    </head>
+
+    <body>
+        <Sidebar />
+        <div class="off-canvas-content" data-off-canvas-content>
+            <div class="title-bar hide-for-medium">
+                <div class="title-bar-left">
+                    <button
+                        class="menu-icon"
+                        type="button"
+                        data-toggle="my-info"
+                        aria-label="Menu"></button>
+                    <span class="title-bar-title"></span>
+                </div>
+            </div>
+            <slot />
+        </div>
+        <Footer />
+    </body>
+</html>

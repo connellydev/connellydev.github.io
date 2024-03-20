@@ -1,0 +1,110 @@
+/*
+Dark Blue: #153259    21, 50, 89
+Medium Blue: #264F73   28, 79, 115
+Gray: #f2f2f2   242, 242, 242
+Tan: #d9a55f   217, 165, 95
+Goldenrod: #f2a43c    242, 164, 60
+*/
+
+ul.link-list li {
+    margin: .8em 0;
+}
+
+.dark-background {
+    background-color: rgb(21, 50, 89);
+    color: #fefefe;
+}
+
+.gray-background {
+    background-color: rgb(242, 242, 242) !important;
+}
+
+.page-header {
+    padding-bottom: 2em;
+}
+
+#timeline-wrapper {
+    padding-top: 1em;
+}
+
+#timeline-wrapper h1 {
+    color: rgb(255, 255, 255);
+}
+
+#my-info {
+    background-color: rgb(217, 165, 95);
+}
+
+#achievements,
+#education {
+    color: #fefefe;
+}
+
+hr {
+    border-top: .25em solid #fefefe;
+}
+
+.achievements-date {
+    font-size: .8em;
+}
+
+.callout {
+    margin-bottom: 0 !important;
+    border: none !important;
+}
+
+.callout.primary {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+}
+
+.social-icon {
+    /* stylelint-disable-next-line unit-allowed-list */
+    height: 16px;
+    /* stylelint-disable-next-line unit-allowed-list */
+    width: 16px;
+    color: rgb(28, 79, 115);
+}
+
+ul.menu li {
+    width: 2em;
+}
+
+#footer {
+    background-color: rgb(21, 50, 89);
+    color: #fefefe;
+    padding: 1em 0;
+}
+
+#footer a {
+    color: #fefefe;
+}
+
+#wrapper_headshot {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+#wrapper_info {
+    height: 100%;
+}
+
+.wrapper_certs {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+#wrapper_contact {
+    margin-top: 1.5em;
+}
+
+.cert_icon {
+    /* stylelint-disable-next-line unit-allowed-list */
+    height: 75px;
+    /* stylelint-disable-next-line unit-allowed-list */
+    width: 75px;
+}
+
+#education dl dd {
+    margin-bottom: .5em;
+}

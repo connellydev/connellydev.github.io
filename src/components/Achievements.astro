@@ -1,0 +1,21 @@
+---
+import AchievementsData from "./data/Achievements.json";
+import Achievement from "./Achievement.astro";
+---
+
+<div class="grid-container" id="achievements">
+    <hr />
+    <h1 class="text-center">Achievements</h1>
+    <dl>
+        {
+            AchievementsData.achievements.map((achievement) => (
+                <Achievement
+                    name={achievement.name}
+                    description={achievement.description}
+                    start={achievement.start}
+                    end={achievement.end}
+                />
+            ))
+        }
+    </dl>
+</div>

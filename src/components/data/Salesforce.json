@@ -1,0 +1,52 @@
+{
+    "projects": [
+        {
+            "name": "Solenopsis",
+            "desc": "Solenopsis is a tool born out of necessity. With no good command-line tool to deploy Salesforce code with it was written to meet a need. Solenopsis is a combination of some ANT scripts to do deployment and Python scripts to do easily manage flags and other neat things like templates",
+            "image": "/img/solenopsis.png",
+            "image_alt": "Solenopsis logo",
+            "url": "http://solenopsis.org/Solenopsis/",
+            "button_text": "View on Github"
+        },
+        {
+            "name": "Event Monitoring",
+            "desc": "A command-line interface for interacting with the Event Monitoring capabilities of Salesforce.",
+            "image": "/img/eventmonitoring.png",
+            "image_alt": "Event Monitoring logo",
+            "url": "https://github.com/pcon/sfdc-eventMonitoring",
+            "button_text": "View on Github"
+        },
+        {
+            "name": "Sandbox Versions",
+            "desc": "A Chrome and Firefox extension that shows your sandbox version next to your sandbox host.",
+            "image": "/img/sandboxversion.png",
+            "image_alt": "Screenshot of sandbox version",
+            "url": "https://github.com/pcon/sfdc-sandboxVersion",
+            "button_text": "View on Github"
+        },
+        {
+            "name": "Entitlements Hands-On Training",
+            "desc": "This hands-on training will help you learn how to use the built-in Salesforce entitlement process to generate milestones on your support cases to help you meet your SLAs.",
+            "image": "/img/entitlements.png",
+            "image_alt": "Timeline from traning",
+            "url": "http://pcon.github.io/handsontraining/entitlements/",
+            "button_text": "View Training"
+        },
+        {
+            "name": "Salesforce Apps",
+            "desc": "A collection of applications written to help with usage of Salesforce.",
+            "image": "/img/salesforceapps.png",
+            "image_alt": "Logo for Salesforce apps",
+            "url": "https://github.com/pcon/SalesforceApps",
+            "button_text": "View on Github"
+        },
+        {
+            "name": "Live Agent Quickstart",
+            "desc": "This app will allow you to quickly spin up a website on heroku with a link to your Live Agent chat.",
+            "image": "/img/liveagent.png",
+            "image_alt": "Logo for live agent quickstart",
+            "url": "https://github.com/pcon/liveagent-quickstart",
+            "button_text": "View on Github"
+        }
+    ]
+}

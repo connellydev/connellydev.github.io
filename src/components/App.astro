@@ -1,0 +1,20 @@
+---
+const { name, desc, image, image_alt, url, button_text} = Astro.props;
+---
+
+<div class="cell">
+    <img
+        class="thumbnail"
+        src={image}
+        alt={image_alt}
+        height="408"
+        width="408"
+    />
+    <h3>{name}</h3>
+    <p>{desc}</p>
+    <p>
+        <a class="button" href={url}>
+            {button_text}
+        </a>
+    </p>
+</div>

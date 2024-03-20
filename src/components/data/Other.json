@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "name": "Practical Survivor",
+            "desc": "The Practical Survivor Theme is for Grav CMS.",
+            "image": "/img/practicalsurvivor.png",
+            "image_alt": "Cover image from Practical Survivor website",
+            "url": "https://github.com/pcon/practicalsurvivor-grav",
+            "button_text": "View on Github"
+        },
+        {
+            "name": "MozBot Modules",
+            "desc": "A collection of modules for the MozBot IRC bot.",
+            "image": "/img/mozbot.png",
+            "image_alt": "Mozbot Logo",
+            "url": "https://github.com/pcon/MozBot",
+            "button_text": "View on Github"
+        },
+        {
+            "name": "Cloudinary CLI",
+            "desc": "An easy way to upload files to cloudinary from the command-line.",
+            "image": "/img/cloudinary.png",
+            "image_alt": "Cloudinary CLI logo",
+            "url": "https://www.npmjs.com/package/cloudinary-cli",
+            "button_text": "View on NPM"
+        }
+    ]
+}

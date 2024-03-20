@@ -1,0 +1,38 @@
+{
+    "achievements": [
+        {
+            "name": "Salesforce MVP",
+            "start": "2013",
+            "end": "present",
+            "description": "MVP status is awarded to members of the Salesforce Community based on their contributions to the community. This was awarded based on involvement in the Triangle Developer User Group, contributions on the developer boards, blog posts and IRC contributions."
+        },
+        {
+            "name": "Salesforce Certified Platform Developer I",
+            "start": "2024",
+            "end": "present",
+            "description": "Certified Platform Developer I developers understand how to develop and deploy custom business logic and custom interfaces using the programmatic capabilities of the Lightning Platform. They know when to use declarative versus programmatic methods, and can extend the Lightning Platform using Apex and Visualforce."
+        },
+        {
+            "name": "Salesforce Certified Platform App Builder",
+            "start": "2018",
+            "end": "present",
+            "description": "This certification shows a base level knowledge of how to configure Salesforce to meet common business use cases using standard platform functionality. This certification replaces the Salesforce Certified Force.com Developer."
+        },
+        {
+            "name": "Salesforce Certified Force.com Developer",
+            "start": "2015",
+            "end": "2018",
+            "description": "This certification shows a base level knowledge of how to configure Salesforce to meet common business use cases using standard platform functionality."
+        },
+        {
+            "name": "Eagle Scout",
+            "start": "2002",
+            "description": "The highest award a Scout can earn, the Eagle is only obtained by four percent of its members. Members that are awarded the badge of Eagle have to show leadership and service to their community."
+        },
+        {
+            "name": "Venturing Silver Award",
+            "start": "2004",
+            "description": "The Silver Award was the highest award in the Venturing program of the Boy Scouts of America and is obtained by less than one percent of it's members. Members that are awarded the Silver Award fulfill requirements relating to emergency preparedness, leadership skills, and ethics-in-action."
+        }
+    ]
+}

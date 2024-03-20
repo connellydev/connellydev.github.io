@@ -1,0 +1,14 @@
+---
+const { name, description, start, end } = Astro.props;
+let adate = start;
+
+if (end) {
+    adate = `${start} — ${end}`;
+}
+---
+
+<dt>{name}</dt>
+<dd>
+    <p class="achievements-date">{adate}</p>
+    <p>{description}</p>
+</dd>
