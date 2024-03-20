@@ -1,0 +1,33 @@
+---
+import Default from "../../layouts/Default.astro";
+
+import PresentationData from "../../components/data/Presentations.json";
+import Presentation from "../../components/Presentation.astro";
+---
+
+<Default title="Presentations">
+	<div class="callout dark-background">
+		<article class="grid-container">
+			<div>
+				<h1 class="text-center">Presentations</h1>
+				<p class="lead text-center">
+					Presentations written and delivered by Patrick
+				</p>
+			</div>
+		</article>
+	</div>
+	<div class="grid-x grid-padding-x">
+	<article class="cell">
+		{
+			PresentationData.presentations.map((presentation) => (
+				<Presentation
+					title={presentation.title}
+					recordings={presentation.recordings}
+					slides={presentation.slides}
+					resources={presentation.resources}
+				/>
+			))
+		}
+	</article>
+	</div>
+</Default>

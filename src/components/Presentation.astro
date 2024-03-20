@@ -1,0 +1,31 @@
+---
+const { id, title, recordings, slides, resources } = Astro.props;
+
+import List from '../components/List.astro';
+---
+
+<div id={id}>
+    <h2 class="text-center">{title}</h2>
+    <h3 class="text-center">Talk information</h3>
+    {
+        recordings.length > 0 &&
+        <List
+            title="Watch Session"
+            entries={recordings}
+        />
+    }
+    {
+        slides.length > 0 &&
+        <List
+            title="Download Slides"
+            entries={slides}
+        />
+    }
+    {
+        resources.length > 0 &&
+        <List
+            title="Resources"
+            entries={resources}
+        />
+    }
+</div>

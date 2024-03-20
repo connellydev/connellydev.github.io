@@ -1,0 +1,12 @@
+---
+const { title, entries } = Astro.props;
+---
+
+<h4 class="h5">{title}</h4>
+<ul>
+    {
+        entries.map((entry: any) => (
+            <li><a href={entry.link}>{entry.title}</a></li>
+        ))
+    }
+</ul>

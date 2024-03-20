@@ -7,12 +7,23 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint-eslint": "eslint \"src/**/*.{js,astro}\"",
+    "lint-style": "stylelint src/**/*.css",
+    "lint-json": "jsonlint",
+    "lint": "npm run lint-eslint && npm run lint-style && npm run lint-json"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.9",
     "astro": "^4.5.4",
     "foundation-sites": "^6.8.1",
     "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@prantlf/jsonlint": "^14.0.3",
+    "eslint": "^8.57.0",
+    "eslint-plugin-astro": "^0.32.0",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
   }
 }

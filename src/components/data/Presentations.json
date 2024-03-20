@@ -1,0 +1,183 @@
+{
+    "presentations": [
+        {
+            "id": "want_to_be_a_developer",
+            "title": "So you want to be a developer?",
+            "recordings": [
+                {
+                    "title": "Hawaii User Group — March 2022",
+                    "link": "https://youtu.be/-rYjt6SMwjw"
+                }
+            ],
+            "slides": [
+                {
+                    "title": "Dreamin' In Color 22",
+                    "link": "/assets/developer/connelly_walters_developer_dic22.pdf"
+                },
+                {
+                    "title": "Southeast Dreamin' 22",
+                    "link": "/assets/developer/connelly_developer_sed22.pdf"
+                },
+                {
+                    "title": "Florida Trailblazer Community Group",
+                    "link": "/assets/developer/connelly_developer_tcg.pdf"
+                }
+            ],
+            "resources": [
+                {
+                    "title": "Trailblazer Mentorship",
+                    "link": "https://trailhead.salesforce.com/trailblazerconnect/mentorship/"
+                },
+                {
+                    "title": "Site Starter",
+                    "link": "https://github.com/pcon/site-starter"
+                },
+                {
+                    "title": "Codecademy",
+                    "link": "https://www.codecademy.com/"
+                },
+                {
+                    "title": "Home Assistant",
+                    "link": "https://www.home-assistant.io/"
+                },
+                {
+                    "title": "Ohana Slack",
+                    "link": "https://salesforceohana.slack.com/join/shared_invite/zt-nyav6ntj-bLNo_TL69YdAWzizkQ3tqA#/shared-invite/email"
+                },
+                {
+                    "title": "NC Salesforce Users Discord",
+                    "link": "https://discord.gg/U9Py8VsMUA"
+                },
+                {
+                    "title": "SFXD Discord",
+                    "link": "https://sfxd.github.io/"
+                }
+            ]
+        },
+        {
+            "id": "jenkins_and_slack",
+            "title": "Jenkins & Slack Notifications",
+            "recordings": [
+                {
+                    "title": "Raleigh-Durham Slack Community — February 2023",
+                    "link": "https://www.youtube.com/watch?v=AhnmTcGiB7k"
+                }
+            ],
+            "slides": [
+                {
+                    "title": "Raleigh-Durham Slack Community",
+                    "link": "/assets/developer/connelly_jenkins_slack_scg.pdf"
+                }
+            ],
+            "resources": [
+                {
+                    "title": "Set up guide",
+                    "link": "https://levelup.gitconnected.com/send-slack-notifications-with-jenkins-f8e8b2d2e748"
+                },
+                {
+                    "title": "Block Kit",
+                    "link": "https://api.slack.com/block-kit"
+                },
+                {
+                    "title": "Jenkins GitHub",
+                    "link": "https://github.com/pcon/salesforce-jenkins"
+                }
+            ]
+        },
+        {
+            "id": "code_review_and_code_quality",
+            "title": "",
+            "recordings": [
+                {
+                    "title": "Raleigh-Durham Developer User Group — July 2022",
+                    "link": "https://youtu.be/bOPu7p8myRY"
+                }
+            ],
+            "slides": [
+                {
+                    "title": "Raleigh-Durham Developer User Group",
+                    "link": "/assets/developer/connelly_code_review_tcg.pdf"
+                },
+                {
+                    "title": "Toronto Developer User Group",
+                    "link": "/assets/developer/connelly_code_review_tcg.pdf"
+                }
+            ],
+            "resources": [
+                {
+                    "title": "PMD",
+                    "link": "https://pmd.github.io/latest/pmd_rules_apex.html"
+                },
+                {
+                    "title": "SonarQube",
+                    "link": "https://www.sonarsource.com/products/sonarqube/"
+                },
+                {
+                    "title": "ESLint",
+                    "link": "https://eslint.org/"
+                },
+                {
+                    "title": "StyleLint",
+                    "link": "https://stylelint.io/"
+                }
+            ]
+        },
+        {
+            "id": "dev_console_for_admins",
+            "title": "Developer Console for Admins",
+            "recordings": [],
+            "slides": [
+                {
+                    "title": "Southeast Dreamin' — June 2023",
+                    "link": ""
+                }
+            ],
+            "resources": [
+                {
+                    "title": "SOQL Reference",
+                    "link": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm"
+                },
+                {
+                    "title": "SOQL Trailhead",
+                    "link": "https://trailhead.salesforce.com/content/learn/modules/apex_database/apex_database_soql"
+                },
+                {
+                    "title": "Query Plan FAQ",
+                    "link": "https://help.salesforce.com/s/articleView?id=000386864&type=1"
+                },
+                {
+                    "title": "Improving Report Performance",
+                    "link": "https://help.salesforce.com/s/articleView?id=sf.improving_report_performance.htm&type=5"
+                },
+                {
+                    "title": "Logs Tab",
+                    "link": "https://help.salesforce.com/s/articleView?id=sf.code_dev_console_tab_browser_logs.htm&type=5"
+                },
+                {
+                    "title": "Generate and Analyze Logs",
+                    "link": "https://trailhead.salesforce.com/content/learn/modules/developer_console/developer_console_logs"
+                },
+                {
+                    "title": "Tests Tab",
+                    "link": "https://help.salesforce.com/s/articleView?id=sf.code_dev_console_tab_tests.htm&type=5"
+                },
+                {
+                    "title": "Checking Code Coverage",
+                    "link": "https://help.salesforce.com/s/articleView?id=sf.code_dev_console_tests_coverage.htm&type=5"
+                },
+                {
+                    "title": "Aggregate Functions",
+                    "link": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_agg_functions.htm"
+                },
+                {
+                    "title": "Date Functions",
+                    "link": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_date_functions.htm"
+                },
+                {
+                    "title": "Date Literals",
+                    "link": "https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql_select_dateformats.htm"
+                }
+            ]
+        }
+    ]
+}

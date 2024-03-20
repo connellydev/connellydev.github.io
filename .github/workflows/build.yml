@@ -1,0 +1,35 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'npm'
+      - name: Lint and build
+        run: |
+          npm ci
+          npm run lint
+          npm run build
+        env:
+          CI: true
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        if: github.ref == 'refs/heads/main'
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages
+          folder: dist

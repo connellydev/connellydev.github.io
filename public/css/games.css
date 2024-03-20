@@ -1,0 +1,16 @@
+dt {
+    font-weight: bold;
+}
+
+h1, h2, p {
+    clear: both;
+}
+
+.playingCards {
+    /* stylelint-disable-next-line unit-allowed-list */
+    min-width: 1075px;
+}
+
+.center {
+    margin: 0 auto;
+}
