@@ -1,0 +1,13 @@
+---
+const { id, name, url } = Astro.props;
+
+let src = `/img/${id}.png`;
+---
+
+<img
+    class="cert_icon"
+    src={src}
+    alt={name}
+    height="75"
+    width="75"
+/>

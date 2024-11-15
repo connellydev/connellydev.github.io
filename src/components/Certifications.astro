@@ -1,0 +1,18 @@
+---
+import CertificationData from "./data/Certifications.json";
+import Certification from "./Certification.astro";
+---
+
+{
+    CertificationData.certifications.map((data) => (
+        <div class="cell auto wrapper-certs">
+            {data.row.map((cert) => (
+                <Certification
+                    id={cert.id}
+                    name={cert.name}
+                    url={cert.url}
+                />
+            ))}
+        </div>
+    ))
+}
