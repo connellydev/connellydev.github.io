@@ -99,10 +99,7 @@ ul.menu li {
 }
 
 .cert-icon {
-    /* stylelint-disable-next-line unit-allowed-list */
-    height: 75px;
-    /* stylelint-disable-next-line unit-allowed-list */
-    width: 75px;
+    margin: 0 .5em;
 }
 
 #education dl dd {
