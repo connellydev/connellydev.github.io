@@ -19,6 +19,12 @@
             "description": "This certification shows a base level knowledge of how to configure Salesforce to meet common business use cases using standard platform functionality. This certification replaces the Salesforce Certified Force.com Developer."
         },
         {
+            "name": "Salesforce Certified AI Associate",
+            "start": "2024",
+            "end": "present",
+            "description": "This certification will validate foundational skills in ethical and responsible handling of data as they apply to AI in CRM."
+        },
+        {
             "name": "Salesforce Certified Force.com Developer",
             "start": "2015",
             "end": "2018",
