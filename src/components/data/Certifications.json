@@ -1,32 +1,25 @@
 {
+    "per_row": 2,
     "certifications": [
         {
-            "row": [
-                {
-                    "id": "cert_dev1",
-                    "name": "Salesforce Certified Developer I",
-                    "url": ""
-                },
-                {
-                    "id": "cert_javascript",
-                    "name": "Salesforce Certified JavaScript Developer I",
-                    "url": ""
-                }
-            ]
+            "id": "cert_dev1",
+            "name": "Salesforce Certified Developer I",
+            "url": ""
         },
         {
-            "row": [
-                {
-                    "id": "cert_platform",
-                    "name": "Salesforce Certified Platform App Builder",
-                    "url": ""
-                },
-                {
-                    "id": "cert_ai_associate",
-                    "name": "Salesforce Certified AI Associate",
-                    "url": ""
-                }
-            ]
+            "id": "cert_javascript",
+            "name": "Salesforce Certified JavaScript Developer I",
+            "url": ""
+        },
+        {
+            "id": "cert_platform",
+            "name": "Salesforce Certified Platform App Builder",
+            "url": ""
+        },
+        {
+            "id": "cert_ai_associate",
+            "name": "Salesforce Certified AI Associate",
+            "url": ""
         }
     ]
 }

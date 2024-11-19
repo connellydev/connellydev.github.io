@@ -1,12 +1,16 @@
 ---
+import chunk from 'lodash/chunk';
+
 import CertificationData from "./data/Certifications.json";
 import Certification from "./Certification.astro";
+
+const certifications = chunk(CertificationData.certifications, CertificationData.per_row);
 ---
 
 {
-    CertificationData.certifications.map((data) => (
+    certifications.map((row) => (
         <div class="cell auto wrapper-certs">
-            {data.row.map((cert) => (
+            {row.map((cert) => (
                 <Certification
                     id={cert.id}
                     name={cert.name}
